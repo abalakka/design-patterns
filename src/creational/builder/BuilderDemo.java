@@ -18,6 +18,7 @@ public class BuilderDemo {
 		builder.bread("any");
 		LunchOrder anotherOrder = builder.build();
 		System.out.println(anotherOrder);
+		System.out.println(order);
 	}
 
 }
